@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Panier - Ma Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Ma Boutique</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="cart.html">Panier</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Votre Panier</h2>
+    <table class="cart-table" id="cart-table">
+      <thead>
+        <tr><th>Produit</th><th>Prix</th><th>Action</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="cart-actions">
+      <p>Total: <span id="total-price">0</span> €</p>
+      <button id="checkout">Commander</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Ma Boutique</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
